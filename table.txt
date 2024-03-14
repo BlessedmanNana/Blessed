@@ -20,7 +20,9 @@ for i in range(1, 11):
         print(i, "is a not Fibonacci Number ")
 def bitonicSort(a, low, cnt, dire):
     if cnt > 1:
-        k = cnt//2
+        k = cnt//
+
+bluldihliohliefhi2
         bitonicSort(a, low, k, 1)
         bitonicSort(a, low+k, k, 0)
         bitonicMerge(a, low, cnt, dire)
